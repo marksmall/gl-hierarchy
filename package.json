@@ -1,0 +1,16 @@
+{
+  "name": "gl-hierarchy",
+  "version": "1.0.0",
+  "description": "Script to generate a GitLab Group/Sub-Group/Project hierarchy",
+  "main": "index.js",
+  "repository": "git@github.com:marksmall/gl-hierarchy.git",
+  "author": "Mark Small <m.small@ed.ac.uk>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "log4js": "^2.3.3"
+  },
+  "scripts": {
+    "test": "node index.js ./data/hierarchy.json"
+  }
+}
